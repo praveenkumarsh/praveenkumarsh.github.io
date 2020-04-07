@@ -1,3 +1,0 @@
-nbmerge --recursive -i -p ".*March.*" -o _merged.ipynb
-
-jupyter nbconvert _merged.ipynb --template toc2
