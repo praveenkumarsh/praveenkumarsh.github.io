@@ -1,0 +1,19 @@
+https://www.pdfonline.com/convert-pdf-to-html/
+
+https://pixlr.com/x/
+
+FOR DATE PLACE AND SIGNATURE
+
+
+<TR>
+	<TD class="tr4 td77"><P class="p2 ft47" id="date"></P></TD>
+    <script type="text/javascript">
+        let n =  new Date();
+        let y = n.getFullYear();
+        let m = n.getMonth() + 1;
+        let d = n.getDate();
+        document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+        // document.write(d + "/" + m + "/" + y+" ,New Delhi");
+    </script>
+	<TD class="tr4 td78"><P class="p2 ft48"><img src="PRAVEEN_SIGN.png" width="100" height="50" alt=""></P></TD>
+</TR>

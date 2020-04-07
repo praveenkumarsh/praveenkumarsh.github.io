@@ -1,0 +1,85 @@
+a, a:visited {
+    color: #7cbb68;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover, a:focus {
+    color: #FFF;
+}
+
+#logo a img {
+    border: 3px solid #7cbb68;
+}
+
+.fake-bg {
+    background: url(../images/texture_bg.png) repeat scroll 0 0 #7cbb68;
+}
+
+.etabs {
+    background: url(../images/texture_bg.png) repeat #7cbb68;
+}
+
+.tab a.active span, .tab a:hover span {
+    background: #7cbb68;
+}
+
+.tab a.active, .tab a:hover {
+    color: #7cbb68;
+}
+
+.portfolio li h3 span {
+    color: #7cbb68;
+}
+
+.intro-head p span {
+    color: #7cbb68;
+}
+
+.panel-container {
+    border-left: 2px solid #7cbb68;
+}
+
+.home-contact p i {
+    color: #7cbb68;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5, .skill6, .skill7, .skill8, .skill9, .skill10 {
+    background: url(../images/texture_bg.png) repeat #7cbb68;
+}
+
+.portfolio a:hover {
+    border: 2px solid #7cbb68;
+}
+
+form#contact_form input[type="submit"] {
+    background: url(../images/texture_bg.png) repeat #7cbb68;
+}
+
+form#contact_form input[type="button"] {
+    background: url(../images/texture_bg.png) repeat #7cbb68;
+}
+
+.contact-txt i {
+    color: #7cbb68;
+}
+
+.tweet_list li {
+    background: url(../images/twitter_bird_blue.html) no-repeat 0 5px;
+}
+
+h3.org-head {
+    background: url(../images/texture_bg.png) repeat #7cbb68;
+}
+
+h3.org-head span {
+    background: url(../images/down_arrow_blue.html) no-repeat 2px bottom;
+}
+
+.filter a {
+    color: #ffffff;
+}
+
+.filter a:hover, .current a {
+    color: #7cbb68;
+}
