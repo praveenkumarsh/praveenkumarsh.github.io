@@ -1,0 +1,7 @@
+
+# HTID:11670478: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile "/storage/ssd3/559/11170559/public_html/files/.htpasswd"
+Require user Praveen101997
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11670478:

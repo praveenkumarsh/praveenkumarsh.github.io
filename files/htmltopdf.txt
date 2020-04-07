@@ -1,0 +1,5 @@
+http://api.html2pdfrocket.com/pdf?value=https://praveensharma.cf/resume.htm&apikey=a791fa01-86b4-4d47-81ce-65ed895d92c3&FileName=Praveen_Resume&PageSize=A4&JavascriptDelay=10&MarginLeft=20&MarginTop=7&Zoom=2&MarginBottom=7
+
+
+
+http://api.pdflayer.com/api/convert?access_key=b2a130a39bfe05e366e0a13b19b5e650&document_url=https://praveensharma.cf/resume.htm&inline=1&document_name=Praveen_Resume&delay=100&force = 1

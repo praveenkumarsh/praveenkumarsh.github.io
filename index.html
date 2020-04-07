@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <title>Praveen Sharma's profile page</title>
     <link rel="icon" href=
             "TitleBar_Icon.ico"
           type="image/x-icon">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 
     <!-- Mobile Specific Metas -->
@@ -26,6 +27,7 @@
     <script>
         $(function(){
             $("#includedContent").load("resume.htm");
+            // $("#includedContent").load("portfolio.html");
         });
     </script>
 
@@ -38,6 +40,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="all.css"/>
     <link rel="stylesheet" class="alt" href="css/theme-blue.css">
     <link rel="stylesheet" href="css/skeleton.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
@@ -62,14 +65,14 @@
 </head>
 <!--pat2,pat7,pat9,pat10,pat11 -->
 <body style="background: url('images/pattern/pat11.jpg') repeat fixed 0% 0% transparent;">
-
+<style>img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none; }</style>
 
 <!--///////////////////////////////////////////////////-->
 
 <div id="content">
     <div class="container outer-wrap">
         <div class="dark-bg">
-            <div class="fake-bg"></div>
+             <div class="fake-bg"> </div>
             <div class="color-bg">
                 <div class="columns four">
                     <div id="logo">
@@ -91,7 +94,10 @@
                                 <li class=""><a href="https://github.com/Praveen101997" target="_blank"><i class="icon-github-sign"></i></a>
                                 </li>
                                 <li class=""><a href="https://www.instagram.com/praveen101997" target="_blank"><i
-                                        class="icon-instagram"></i></a></li>
+                                        class="icon-instagram"></i></a>
+                                </li>
+                                <li class=""><a href="https://www.kaggle.com/praveen101997" target="_blank"><svg style="height:20px" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="kaggle" class="svg-inline--fa fa-kaggle fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M304.2 501.5L158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z"></path></svg></a>
+                                </li>
 
                             </ul>
                         </div>
@@ -107,13 +113,13 @@
                             <ul class='etabs'>
                                 <li class='tab'><a href="#home" class="home"><span class="icon-wrap"><i
                                         class="icon-home"></i></span>Home</a></li>
-                                <li class='tab'><a href="#web" class="about"><span class="icon-wrap"><i
+                                <li class='tab'><a href="#profile" class="about"><span class="icon-wrap"><i
                                         class="icon-user"></i></span>Profile</a>
                                 </li>
-                                <li class='tab'><a href="#resume" class="blog"><span class="icon-wrap"><i
+                                <li class='tab'><a href="#resume" class="resume"><span class="icon-wrap"><i
                                         class="icon-book"></i></span>Resume</a>
                                 </li>
-                                <li class='tab'><a href="#blog" class="blog"><span class="icon-wrap"><i
+                                <li class='tab'><a href="#projects" class="projects"><span class="icon-wrap"><i
                                         class="icon-folder-open"></i></span>Projects</a>
                                 </li>
                                 <li class='tab'><a href="#contact" class="contact"><span class="icon-wrap"><i
@@ -164,6 +170,31 @@
                                                         <p><i class="icon-file-text"></i><span>Cover Letter </span> &nbsp;&nbsp;
                                                             [ pdf ]</p>
                                                     </a>
+                                                    
+                                                    <!--<a href="https://www.kaggle.com/praveen101997" target="_blank">-->
+                                                    <!--    <p><i class="icon-file-text"></i><span>Kaggle Profile </span> &nbsp;&nbsp;-->
+                                                    <!--        </p>-->
+                                                    <!--</a>-->
+                                                    
+                                                    <a href="https://procoder01.blogspot.com/" target="_blank">
+                                                        <p><i class="icon-file-text"></i><span>Blog </span> &nbsp;&nbsp;
+                                                            </p>
+                                                    </a>
+                                                    
+                                                    <a href="https://www.codechef.com/certificates/public/04d0a8f" target="_blank">
+                                                        <p><i class="icon-file-text"></i><span>Snackdown Participation Certificate </span> &nbsp;&nbsp;
+                                                            </p>
+                                                    </a>
+                                                    
+                                                    <a href="https://drive.google.com/open?id=118WuqvUt02tq2w2UhLeNsDOzMWoqZ-0t" target="_blank">
+                                                        <p><i class="icon-file-text"></i><span>eYRC-2018 Participation Certificate </span> &nbsp;&nbsp;
+                                                            </p>
+                                                    </a>
+                                                    
+                                                    <a href="https://drive.google.com/open?id=1G_ZMOwOE5ykpJCiwWHQsEq773xNuvsCW" target="_blank">
+                                                        <p><i class="icon-file-text"></i><span>FLIPKART-GRiD Participation Certificate </span> &nbsp;&nbsp;
+                                                            </p>
+                                                    </a>
 
                                                 </div>
                                             </div>
@@ -176,9 +207,19 @@
                                 <!--///////////////////////////////////////////////////-->
 
 
-                                <div id="web" class="page">
+                                <div id="profile" class="page">
                                     <div class="content-wrap">
                                         <!-- Skills -->
+                                        <div class="columns seven" style="background-color:#9e32a8">
+                                            <div class="content-pad">
+                                                <a href="https://www.codechef.com/users/praveen1097" target="_blank"><span class="icon-circle"></span>Codechef Profile</a>
+                                                <a href="https://codeforces.com/profile/pk1997" target="_blank"><span class="icon-circle"></span>Codeforces Profile</a>
+                                                <a href="https://www.kaggle.com/praveen101997" target="_blank"><span class="icon-circle"></span>Kaggle Profile</a>
+                                                <br>
+                                                <a href="https://www.interviewbit.com/profile/praveen-sharma_836" target="_blank"><span class="icon-circle"></span>InterviewBit Profile</a>
+
+                                            </div>
+                                        </div>
                                         <div class="columns six">
                                             <div class="content-pad">
                                                 <h2>My Skills</h2>
@@ -199,7 +240,7 @@
                                                     <p>Machine Learning</p>
 
                                                     <div class="skill_bg">
-                                                        <div class="skill3 skill_hover"></div>
+                                                        <div class="skill7 skill_hover"></div>
                                                     </div>
 
                                                     <p>Linux</p>
@@ -240,6 +281,31 @@
 
                                                 </div>
                                             </div>
+                                        <!--<div>-->
+                                            <!-- Prepare a container for your calendar. -->
+                                        <!--    <script-->
+                                        <!--        src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"-->
+                                        <!--    >-->
+                                        <!--    </script>-->
+
+                                            <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                                        <!--    <link-->
+                                        <!--      rel="stylesheet"-->
+                                        <!--      href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"-->
+                                        <!--    />-->
+
+                                             <!--Prepare a container for your calendar. -->
+                                        <!--    <div class="calendar" style="background-color:#white">-->
+                                             <!--Loading stuff -->
+                                        <!--        Loading the data just for you.-->
+                                        <!--    </div>-->
+
+                                        <!--    <script>-->
+                                        <!--        new GitHubCalendar(".calendar", "Praveen101997");-->
+                                        <!--    </script>-->
+                                        <!--</div>-->
+                                            <!--Github Calendar-->
+                                            <!--<img src="http://ghchart.rshah.org/Praveen101997" alt="Praveen101997's Github chart" />-->
                                         </div>
                                         <!-- Work Experience -->
                                         <div class="columns five">
@@ -265,7 +331,7 @@
                                                             </li>
                                                         </ul>
 
-                                                        </p>
+                                                        <!--</p>-->
                                                     </div>
                                                 </div>
                                             </div>
@@ -286,11 +352,11 @@
                                         <!-- Skills -->
                                         <div class="columns seven">
                                             <div class="content-pad">
-                                                <a href="resume.pdf"><span class="icon-circle"><i
-                                                        class="icon-download" ></i></span>Resume Download</a>
+                                                <a href="http://api.html2pdfrocket.com/pdf?value=https://praveensharma.cf/resume.htm&apikey=a791fa01-86b4-4d47-81ce-65ed895d92c3&FileName=Praveen_Resume&PageSize=A4&JavascriptDelay=10&MarginLeft=20&MarginTop=7&Zoom=2&MarginBottom=7"><span class="icon-circle"><i
+                                                        class="icon-download" ></i></span>Generate Resume</a>
                                                 <a href="cover_letter.pdf"><span class="icon-circle"><i
                                                         class="icon-download" ></i></span>Cover Letter Download</a>
-                                                <div id="includedContent"></div>
+                                                <div id="includedContent" ></div>
 
 
                                             </div>
@@ -314,130 +380,205 @@
 
 
                                 <!-- Projects section -->
-                                <div id="blog" class="page">
+                                <div id="projects" class="page">
                                     <div class="columns seven">
                                         <h2><span>Academic Projects</span></h2>
+                                        <a href="portfolio.html"><img src="/images/academic-click2.png" width="350" height="65"/></a>
                                     </div>
+                                </div>
 <!--                                </div>-->
-                                    <div class="content-wrap">
-                                        <div class="columns seven">
-                                            <div class="content-pad">
+                                    <!--<div class="content-wrap">-->
+                                    <!--    <div class="columns seven">-->
+                                    <!--        <div class="content-pad">-->
 
 
-                                                <div class="blog-feed">
+                                    <!--            <div class="blog-feed">-->
 
-                                                    <br>
-                                                    <div class="rss-box">
-                                                        <ul class="rss-items">
-                                                            <li class="rss-item">
-                                                                <a class="rss-item"
-                                                                   href="https://github.com/Praveen101997/Criminal-Record-Management-System/"
-                                                                   target="blog">
-                                                                    Criminal Data Searching App
-                                                                </a>
-                                                                <br>
-                                                                <span class="rss-date">(2nd Year) 2018 - 2019</span>
-                                                                <br>
-                                                                 SKILLS INVOLVED: JAVA Swing using NetBeans, MySQL DB &
-                                                                JavaCV(Opencv).
-                                                                <br>
-                                                                 OBJECTIVE: It’s a JAVA based desktop App to search any
-                                                                criminal record from database using any
-                                                                key like IMAGE, USERNAME, or other detail.
-                                                                <br>
-                                                                 DETAIL: Using Image Comparing method using JavaCV we
-                                                                can compare image of any people to
-                                                                find in database and if found extract its information.
-                                                            </li>
+                                    <!--                <br>-->
+                                    <!--                <div class="rss-box">-->
+                                    <!--                    <ul class="rss-items">-->
+                                    <!--                        <li class="rss-item">-->
+                                    <!--                            <a class="rss-item"-->
+                                    <!--                               href="https://github.com/Praveen101997/Criminal-Record-Management-System/"-->
+                                    <!--                               target="blog">-->
+                                    <!--                                Criminal Data Searching App-->
+                                    <!--                            </a>-->
+                                    <!--                            <br>-->
+                                    <!--                            <span class="rss-date">(2nd Year) 2018 - 2019</span>-->
+                                    <!--                            <br>-->
+                                    <!--                             SKILLS INVOLVED: JAVA Swing using NetBeans, MySQL DB &-->
+                                    <!--                            JavaCV(Opencv).-->
+                                    <!--                            <br>-->
+                                    <!--                             OBJECTIVE: It’s a JAVA based desktop App to search any-->
+                                    <!--                            criminal record from database using any-->
+                                    <!--                            key like IMAGE, USERNAME, or other detail.-->
+                                    <!--                            <br>-->
+                                    <!--                             DETAIL: Using Image Comparing method using JavaCV we-->
+                                    <!--                            can compare image of any people to-->
+                                    <!--                            find in database and if found extract its information.-->
+                                    <!--                        </li>-->
 
-                                                            <li class="rss-item">
-                                                                <a class="rss-item"
-                                                                   href="https://github.com/Praveen101997/College-Management-Syatem/"
-                                                                   target="blog">
-                                                                    School Management System
-                                                                </a>
-                                                                <br>
-                                                                <span class="rss-date">(2nd Year) 2018 - 2019</span>
-                                                                <br>
-                                                                 SKILLS INVOLVED: JAVAFX using NetBeans & MySQL.
-                                                                <br>
-                                                                 OBJECTIVE: It’s a JAVA based desktop App to manage
-                                                                school-based records.
-                                                                <br>
-                                                                 DETAIL: Create three portals – 1. Admin Portal 2.
-                                                                Teacher Portal 3. Student Portal.
-                                                                <br>
-                                                                1. Admin Portal used to manage “Teacher & Student
-                                                                portals” login related issues.
-                                                                <br>
-                                                                2. Teacher Portal includes uploading attendances of
-                                                                respective subjects, etc.
-                                                                <br>
-                                                                3. Student Portal includes monitoring of their
-                                                                attendances & respective year’s notice, etc.
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="columns five">
-                                            <div class="content-pad">
-                                                <h3><span>Github Activity</span></h3>
-                                                <ul id="github-stream" class="github-stream"></ul>
-                                                <script type="text/javascript" language="JavaScript">
-                                                    $.getJSON("https://api.github.com/users/Praveen101997/events", function (json) {
-                                                        var transform = [
-                                                            {
-                                                                "tag": "li", "class": "${type}", "children": [
-                                                                    {
-                                                                        "tag": "div", "class": "event", "children": [
-                                                                            {
-                                                                                "tag": "div",
-                                                                                "class": "event-type",
-                                                                                "children": [
-                                                                                    {
-                                                                                        "tag": "a",
-                                                                                        "href": "${url}",
-                                                                                        "html": "${type}"
-                                                                                    }
-                                                                                ]
-                                                                            },
-                                                                            {
-                                                                                "tag": "div",
-                                                                                "class": "event-desc",
-                                                                                "children": [
-                                                                                    {"tag": "span", "html": " at "},
-                                                                                    {
-                                                                                        "tag": "a",
-                                                                                        "href": "http://github.com/${repo.name}",
-                                                                                        "html": "${repo.name}"
-                                                                                    },
-                                                                                    {
-                                                                                        "tag": "span",
-                                                                                        "class": "created-at",
-                                                                                        "html": " ${created_at} "
-                                                                                    },
+                                    <!--                        <li class="rss-item">-->
+                                    <!--                            <a class="rss-item"-->
+                                    <!--                               href="https://github.com/Praveen101997/College-Management-Syatem/"-->
+                                    <!--                               target="blog">-->
+                                    <!--                                School Management System-->
+                                    <!--                            </a>-->
+                                    <!--                            <br>-->
+                                    <!--                            <span class="rss-date">(2nd Year) 2018 - 2019</span>-->
+                                    <!--                            <br>-->
+                                    <!--                             SKILLS INVOLVED: JAVAFX using NetBeans & MySQL.-->
+                                    <!--                            <br>-->
+                                    <!--                             OBJECTIVE: It’s a JAVA based desktop App to manage-->
+                                    <!--                            school-based records.-->
+                                    <!--                            <br>-->
+                                    <!--                             DETAIL: Create three portals – 1. Admin Portal 2.-->
+                                    <!--                            Teacher Portal 3. Student Portal.-->
+                                    <!--                            <br>-->
+                                    <!--                            1. Admin Portal used to manage “Teacher & Student-->
+                                    <!--                            portals” login related issues.-->
+                                    <!--                            <br>-->
+                                    <!--                            2. Teacher Portal includes uploading attendances of-->
+                                    <!--                            respective subjects, etc.-->
+                                    <!--                            <br>-->
+                                    <!--                            3. Student Portal includes monitoring of their-->
+                                    <!--                            attendances & respective year’s notice, etc.-->
+                                    <!--                        </li>-->
+                                                            
+                                    <!--                        <li class="rss-item">-->
+                                    <!--                            <a class="rss-item"-->
+                                    <!--                               href="https://github.com/Praveen101997/Binary-Search-Implementation/"-->
+                                    <!--                               target="blog">-->
+                                    <!--                                Binary Search Implementation-->
+                                    <!--                            </a>-->
+                                    <!--                            <br>-->
+                                    <!--                            <span class="rss-date">(3rd Year) 2019 - 2020</span>-->
+                                    <!--                            <br>-->
+                                    <!--                             SKILLS INVOLVED: JAVA Swing.-->
+                                    <!--                            <br>-->
+                                    <!--                             OBJECTIVE: Implement Btree Searching algorithm in File system Searching. And Differntiate which is better in performance.-->
+                                    <!--                            <br>-->
+                                    <!--                             DETAIL: Create four Tabs – 1. Home Tab 2.-->
+                                    <!--                            Data Tab 3. Indices 4. Query.-->
+                                    <!--                            <br>-->
+                                    <!--                            A. Home Tab • Tab in which we are describing our project for what purpose this can be implemented.-->
+                                    <!--                            <br>-->
+                                    <!--                            B. Data Tab • To create our test Data. • In which we are generating our random data to use it as raw data in project. • The output data is of combination of serial no, Name, Username, Password.-->
+                                    <!--                            <br>-->
+                                    <!--                            C. Indices • Tab in which we will Index Our Data According to Name, UserName, Password respectively as per our requirement.-->
+                                    <!--                            <br>-->
+                                    <!--                            D. Query • In this tab we will test our project as per requirement • We calculate search time in Database searching i. Before Indexing ii. After Indexing-->
+                                    <!--                        </li>-->
+                                                            
+                                    <!--                        <li class="rss-item">-->
+                                    <!--                            <a class="rss-item"-->
+                                    <!--                               href="https://github.com/Praveen101997/doubtsolverportal/"-->
+                                    <!--                               target="blog">-->
+                                    <!--                                TA HELPER-->
+                                    <!--                            </a>-->
+                                    <!--                            <br>-->
+                                    <!--                            <span class="rss-date">(3rd Year) 2019 - 2020</span>-->
+                                    <!--                            <br>-->
+                                    <!--                             SKILLS INVOLVED: JNode.js, Html5, javascript, Socket.io.-->
+                                    <!--                            <br>-->
+                                    <!--                             OBJECTIVE: Build Real time chat application which, with this application students could be able to avail online doubt support.-->
+                                    <!--                            <br>-->
+                                    <!--                             DETAIL: Create three Module – 1. Online Chat 2.-->
+                                    <!--                            White Board 3. Code Screen.-->
+                                    <!--                            <br>-->
+                                    <!--                            1. Online chat: Students can ask doubts from TA through chat.-->
+                                    <!--                            <br>-->
+                                    <!--                            2. Whiteboard: With the help of white board teachers could explain algorithms and diagrams.-->
+                                    <!--                            <br>-->
+                                    <!--                            3. Code Screen: Students can share their codes to TA and TA can take control of students screen, and modify it.-->
+                                    <!--                        </li>-->
+                                                            
+                                    <!--                        <li class="rss-item">-->
+                                    <!--                            <a class="rss-item"-->
+                                    <!--                               href="https://github.com/Praveen101997/Chat-Box/"-->
+                                    <!--                               target="blog">-->
+                                    <!--                                Chat Box-->
+                                    <!--                            </a>-->
+                                    <!--                            <br>-->
+                                    <!--                            <span class="rss-date">(3rd Year) 2019 - 2020</span>-->
+                                    <!--                            <br>-->
+                                    <!--                             SKILLS INVOLVED: Java, Android Studio, Firebase.-->
+                                    <!--                            <br>-->
+                                    <!--                             OBJECTIVE: Build Whatsapp Like App which support individual chatting option and group invitation And it also support Friend Request Option With Login Using Email Id and Password.-->
+                                    <!--                            <br>-->
+                                    <!--                             DETAIL: Create four Tabs – 1. Chats 2.-->
+                                    <!--                            Groups 3. Contacts 4. Requests.-->
+                                    <!--                            <br>-->
+                                    <!--                            1. Chats: Chat individually to someone who is already in Friend List.-->
+                                    <!--                            <br>-->
+                                    <!--                            2. Groups: Chat in Group to which you joined.-->
+                                    <!--                            <br>-->
+                                    <!--                            3. Contacts: Your Contact List Or Your Friend List.-->
+                                    <!--                            <br>-->
+                                    <!--                            4. Requests: Send Request To Someone who has joined Chatbox.-->
+                                    <!--                        </li>-->
+                                    <!--                    </ul>-->
+                                    <!--                </div>-->
+                                    <!--            </div>-->
+                                    <!--        </div>-->
+                                    <!--    </div>-->
+                                        <!--<div class="columns five">-->
+                                        <!--    <div class="content-pad">-->
+                                        <!--        <h3><span>Github Activity</span></h3>-->
+                                        <!--        <ul id="github-stream" class="github-stream"></ul>-->
+                                        <!--        <script type="text/javascript" language="JavaScript">-->
+                                        <!--            $.getJSON("https://api.github.com/users/Praveen101997/events", function (json) {-->
+                                        <!--                var transform = [-->
+                                        <!--                    {-->
+                                        <!--                        "tag": "li", "class": "${type}", "children": [-->
+                                        <!--                            {-->
+                                        <!--                                "tag": "div", "class": "event", "children": [-->
+                                        <!--                                    {-->
+                                        <!--                                        "tag": "div",-->
+                                        <!--                                        "class": "event-type",-->
+                                        <!--                                        "children": [-->
+                                        <!--                                            {-->
+                                        <!--                                                "tag": "a",-->
+                                        <!--                                                "href": "${url}",-->
+                                        <!--                                                "html": "${type}"-->
+                                        <!--                                            }-->
+                                        <!--                                        ]-->
+                                        <!--                                    },-->
+                                        <!--                                    {-->
+                                        <!--                                        "tag": "div",-->
+                                        <!--                                        "class": "event-desc",-->
+                                        <!--                                        "children": [-->
+                                        <!--                                            {"tag": "span", "html": " at "},-->
+                                        <!--                                            {-->
+                                        <!--                                                "tag": "a",-->
+                                        <!--                                                "href": "http://github.com/${repo.name}",-->
+                                        <!--                                                "html": "${repo.name}"-->
+                                        <!--                                            },-->
+                                        <!--                                            {-->
+                                        <!--                                                "tag": "span",-->
+                                        <!--                                                "class": "created-at",-->
+                                        <!--                                                "html": " ${created_at} "-->
+                                        <!--                                            },-->
 
-                                                                                ]
-                                                                            }
-                                                                        ]
-                                                                    }
-                                                                ]
-                                                            }
-                                                        ];
-                                                        $('#github-stream').empty();
-                                                        $('#github-stream').json2html(json, transform, 8);
-                                                    });
-                                                </script>
-                                            </div>
-                                        </div>
-                                        <div class="clearfix">&nbsp;</div>
-                                    </div>
+                                        <!--                                        ]-->
+                                        <!--                                    }-->
+                                        <!--                                ]-->
+                                        <!--                            }-->
+                                        <!--                        ]-->
+                                        <!--                    }-->
+                                        <!--                ];-->
+                                        <!--                $('#github-stream').empty();-->
+                                        <!--                $('#github-stream').json2html(json, transform, 8);-->
+                                        <!--            });-->
+                                        <!--        </script>-->
+                                        <!--    </div>-->
+                                        <!--</div>-->
+                                        <!--<div class="clearfix">&nbsp;</div>-->
+                                    <!--</div>-->
                                     <!--</div>-->
 
 
-                                </div>
+                                <!--</div>-->
 
 
                                 <!-- Contact section -->
@@ -471,8 +612,8 @@
 
 
                                                         <!-- set the reply-to address -->
-                                                        <!-- <input type="text" name="reply_to"
-                                                                    placeholder="Your Email" /> -->
+                                                         <input type="text" name="reply_to"
+                                                                    placeholder="Your Email" />
 
                                                         <!-- to append extra fields, use the extra_ prefix.
                                                             Entries will be appended to your message body. -->
@@ -483,8 +624,8 @@
                                                              for an sms gateway -->
                                                         <!-- <input type="hidden"
                                                                     name="sms_format" value="true" /> -->
-
-                                                        <input id="submit_form" type="submit" value="Send" />
+<!----UNCOMMENT BELOW LINE FOR ENABLE SENDNG BUTTON>
+                                                        <!--<input id="submit_form" type="submit" value="Send" />-->
                                                         <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
 <!--                                                        <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>-->
                                                     </form>
@@ -547,6 +688,15 @@
         </div>
     </div>
 </div>
+ <!-- hitwebcounter Code START -->
 
+<!-- hitwebcounter Code START -->
+<!--<a href="https://www.hitwebcounter.com" target="_blank">-->
+<!--<img src="https://hitwebcounter.com/counter/counter.php?page=7209920&style=0002&nbdigits=4&type=page&initCount=0" title="User Stats" Alt="webcounterwebsite"   border="0" >-->
+<!--</a>                                    -->
+                      
+      
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/650132/t/9"></script>
+<script src="./removebanner.js"></script>
 </body>
 </html>

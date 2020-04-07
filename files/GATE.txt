@@ -1,0 +1,27 @@
+COURSE REGISTRATION PAGE
+https://practice.geeksforgeeks.org/courses/Sudo-GATE-2020?vC=1
+
+COURSE HOME PAGE
+https://practice.geeksforgeeks.org/batch/Sudo-GATE-2020/
+
+GATE CS NOTES
+https://www.geeksforgeeks.org/gate-cs-notes-gq/
+
+IMPORTANT TOPIC CS
+https://www.geeksforgeeks.org/important-topics-prepare-gate-2020-computer-science-paper/
+
+LASTE MINUTE NOTES
+https://www.geeksforgeeks.org/lmns-gq/
+
+GATE CS 2020 SYLLABUS
+https://www.geeksforgeeks.org/gate-cs-2020-syllabus/
+
+PREVIOUS YEAR GATE PAPER AND MOCK QUIZZES
+https://www.geeksforgeeks.org/gate-corner-2-gq/
+https://www.geeksforgeeks.org/gate-cs-in-past/
+
+GATE MOCK TEST
+https://www.geeksforgeeks.org/gate-cs-2018-mock-tests/
+
+TOP 5 TOPIC FOR EACH SECTION OF GATE SYLLABUS
+https://www.geeksforgeeks.org/top-5-topics-for-each-section-of-gate-syllabus/

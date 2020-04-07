@@ -998,7 +998,7 @@ h4.form_thanks {
     padding: 10px 15px 15px 10px;
     border-left: groove #aaaaaa;
     border-top: groove #aaaaaa;
-    border-radius: 0px 20px 80px 20px;
+    border-radius: 0px 10px 0px 10px;
     background: #222222;
     line-height: normal;
     font-size: larger;
@@ -1044,7 +1044,7 @@ h4.form_thanks {
 }
 
 .blog-feed a.rss-item {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 800;
 }
 
@@ -1062,7 +1062,7 @@ h4.form_thanks {
     background-color: #313131;
     margin: 5px 5px 10px 5px;
     padding: 8px 5px 12px 8px;
-    border-radius: 5px 20px 5px 10px;
+    border-radius: 5px 10px 5px 10px;
     border-style: solid;
     border-width: medium;
     border-color: #101010 #212121 #585858 #797979;
