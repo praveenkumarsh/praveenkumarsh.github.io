@@ -1,10 +1,9 @@
+
+# HTID:18133542: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18133542:
+
 ErrorDocument 404 /404.html
-
-
-
-
-
-
 
 
 
@@ -22,7 +21,7 @@ Redirect 301 /kaggle http://www.kaggle.com/praveen101997
 
 
 # HTID:11671978: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-Redirect 301 /resume http://praveensharma.cf/resume.pdf
+Redirect 301 /resume http://praveensharma.cf/Praveen_Sharma_Resume.pdf
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:11671978:
 
 # HTID:11671996: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
@@ -40,28 +39,5 @@ Redirect 302 /imp http://praveensharma.cf/personal_certificate/
 # HTID:12023552: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
 Redirect 302 /projects http://praveensharma.cf/portfolio.html
 # DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:12023552:
-
-Redirect 302 /kasper https://products.kaspersky-labs.com/homeuser/kts2019/19.0.0.1088a/english-0.1651.0/5c42f68b/kts19.0.0.1088_en-il_full.exe
-
-
-Redirect 302 /ip_publish https://docs.google.com/spreadsheets/d/e/2PACX-1vQUbkO1KN_nrdMgwNhNRGtZ0y9EzkETstlIl4ImaE3LhRVsYMBm8r3TzfITBcztCLSZhxz7a79Y_-l1/pubhtml
-
-Redirect 302 /mp_publish https://docs.google.com/spreadsheets/d/e/2PACX-1vTRYAx157H5WGbmGMRVa2-Y-hHmQ1x-OPZyxp62T9HHnXnebTwL9bEkhb7WU2BElwTCCAQw48HabaIk/pubhtml
-
-Redirect 302 /ip https://docs.google.com/spreadsheets/d/1AAridTexMaHVjlLehm4Ns3IkACrL5L3ZWnitbqEnxZk/edit?usp=sharing
-
-Redirect 302 /mp https://docs.google.com/spreadsheets/d/1pHBlJHEJiI_B7gC29Y0yrE5TcYxUiHrvavz55ijLlBM/edit?usp=sharing
-
-Redirect 302 /notebook https://praveensharma.cf/Jupyter_Notebook/
-
-Redirect 302 /leetcode_dp https://leetcode.com/problemset/all/?topicSlugs=dynamic-programming
-
-Redirect 302 /ip_ https://praveensharma.cf/ip_practice.html
-
-
-
-Redirect 302 /labourpublish https://docs.google.com/spreadsheets/d/e/2PACX-1vTNgL2x02QvgFh7Yyh6_YwqUzmeoGaAN6J2BXnme4JKDKad4gnD-pb_Hi7cE3AJm6reUgU2r8L1guyh/pubhtml#
-
-Redirect 302 /labour https://docs.google.com/spreadsheets/d/1vn5a5bTUBW6pjd6JB-4jGA18Z1x3chveHZqEhX4qUVU/edit?usp=sharing
 
 
